@@ -1,0 +1,271 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+/************ First Page ************/
+@font-face{
+    src: url(../fonts/AdreenaScript-Demo.ttf);
+    font-family: "Ad";
+}
+
+.first{
+    background-image: url(../img/1f.jpg);
+    padding: 13%;
+}
+
+h1{
+    font-family: Ad;
+    padding: 5%;
+    font-size: 70px;
+    color: rgb(170, 127, 19);
+}
+
+h1 span{
+    animation: animate 2s linear infinite ;
+
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 0.75s;
+}
+h1 span:nth-child(10)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 1.25s;
+}
+
+@keyframes animate
+{
+    0%, 100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff,
+                    0 0 200px #00b3ff,
+                    0 0 300px #00b3ff,
+                    0 0 400px #00b3ff,
+                    0 0 500px #00b3ff,
+                    0 0 600px #00b3ff,
+                    0 0 700px #00b3ff;
+    }
+    5%, 95%
+    {
+        color: rgb(243, 136, 136);
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+
+.btn{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    background: #69737c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: #2c4b66;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+
+/************ Second Page ************/
+
+.second{
+    background-image: url(../img/846773.jpg);
+    padding: 13%;
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    display: inline-table;
+    border-radius: 10px;
+    
+}
+
+#contain{
+    margin: 6%;
+}
+
+.app{
+    font-family: Ad;
+    color: rgb(170, 127, 19);
+    text-align: left;
+    font-size: 30px;
+}
+
+.h3{
+    font-family: Arial;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.h4{
+    font-family: Arial;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.h5{
+    font-family: Arial;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.bttn{
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+/************ Third Page ************/
+.third{
+    background-image: url(../img/1c.jpg);
+    padding: 13%;
+}
+
+.fb{
+    font-family: Ad;
+    color: rgb(170, 127, 19);
+    text-align: center;
+    font-size: 95px;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 5%;
+ 
+}
+
+.count{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 20px;
+    height: 50px;
+    width: 20%;
+    letter-spacing: 3px;
+    color: white;
+    background: #282a2c;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.count:hover{
+    color: #2c4b66;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+
+/************ Fourth Page ************/
+.sing{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 20px;
+    height: 40px;
+    width: 15%;
+    letter-spacing: 3px;
+    color: white;
+    background: #282a2c;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.sing:hover{
+    color: #2c4b66;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
+
+/************ Fifth Page ************/
+.generate{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 20px;
+    height: 50px;
+    width: 20%;
+    letter-spacing: 3px;
+    color: white;
+    background: #282a2c;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.generate:hover{
+    color: #2c4b66;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+}
