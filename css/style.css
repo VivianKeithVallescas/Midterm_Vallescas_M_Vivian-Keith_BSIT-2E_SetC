@@ -246,26 +246,7 @@ a:hover{
 }
 
 /************ Fifth Page ************/
-.generate{
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bolder;
-    font-family: Arial;
-    font-size: 20px;
-    height: 50px;
-    width: 20%;
-    letter-spacing: 3px;
-    color: white;
-    background: #282a2c;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: 0.2s;
-}
-
-.generate:hover{
-    color: #2c4b66;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-    transition-delay: 0.5s;
+.fifth{
+    background-color: rgb(107, 97, 76);
+    padding: 13%;
 }
